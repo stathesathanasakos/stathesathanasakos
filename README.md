@@ -1,16 +1,30 @@
-## Hi there 👋
+## MessageBox.Show("Hi 👋, my name is Stathis!");
 
-<!--
-**stathesathanasakos/stathesathanasakos** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```csharp
+public class Stathis : Person, IStudent
+{
+    public string University => "University of Piraeus (Dept. of Informatics)";
+    public string Specialization => "Software Technologies & Intelligent Systems";
+    public string CurrentStatus => "BSc Degree compiling... 🎓";
 
-Here are some ideas to get you started:
+    // My own properties
+    public List<string> MainStack => new() { "C#", "ASP.NET", "Java", "Android SDK" };
+    public List<string> SecondaryStack => new() { "Python", "SQL", "NoSQL", "Firebase" };
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+public interface IStudent
+{
+    string University { get; }
+    string Specialization { get; }
+    string CurrentStatus { get; }
+}
+```
+
+```json
+{
+  "purpose": "Hosting my personal projects",
+  "bugs_included": true,
+  "coffee_conversion_rate": "100%",
+  "status": "Refactoring my life, one commit at a time"
+}
+```
