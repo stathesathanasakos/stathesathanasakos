@@ -25,6 +25,6 @@ public interface IStudent
   "purpose": "Hosting my personal projects",
   "bugs_included": true,
   "status": "Refactoring my life, one commit at a time",
-"linkedIn_profile": "Stathis Panagiotis Athanasakos"
+  "linkedIn_profile": "Stathis Panagiotis Athanasakos"
 }
 ```
