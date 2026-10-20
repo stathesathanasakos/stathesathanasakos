@@ -57,7 +57,7 @@ interface SoftwareEngineer {
 ```json
 {
   "purpose": "Hosting my personal projects",
-  "status": "Currently focused on development with Java/Sprin Boot",
+  "status": "Currently focused on development with Java/Spring Boot",
   "linkedIn_profile": "Stathis Panagiotis Athanasakos"
 }
 ```
